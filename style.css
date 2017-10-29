@@ -3,7 +3,8 @@
     background-color: gray;
     width: 960px;
     height: auto;
-    padding-top: 10px
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 header {
@@ -31,11 +32,12 @@ nav {
 }
 
 .pageContent {
-    float: left;
+	float:left;
+	display:inline-block;
     background: #ebebeb;
-    margin: 10px 80px 0px 80px;
-    width: 495px;
-    height: 80px;
+    margin: 10px 0px 0px 80px;
+    width:394px;
+    height: 200px;
     font-family: arial, 'Helvetica Neue', sans-serif;
     font-size: 18px;
     color: gray;
@@ -43,29 +45,56 @@ nav {
 }
 
 .aside {
-    float: left;
-    display: block;
+  	float:right;
+    display:inline-block;
     background: #ebebeb;
-    margin: 10px 80px 10px 80px;
-    width: 495px;
-    height: 80px;
+    margin: 10px 80px 10px 0px;
+    width:394px;
+    height: 200px;
     font-family: arial, 'Helvetica Neue', sans-serif;
     font-size: 18px;
     color: gray;
     text-align: center;
 }
 
-article h2 {
-    font-weight: normal;
+#article {
+    position:relative;
+    display:inline-block;
+    width: 90%;
+    padding:10px;
+    height: 90px;
     font-family: arial, 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    text-align: center
+    text-align: center;
+    color:white;
+    background-color: grey
+}
+ 
+article h3 {
+    position:relative;
+    display:block;
+    width: auto;
+    height: 20px;
+    padding: 2px;
+    margin-bottom:3px;
+    font-family: arial, 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color:grey;
+    background-color: #ebebeb
 }
 article p {
+    position:relative;
+    display:block;
+    width: auto;
+    height: 20px;
+    padding: 2px;
+    margin:5px 0px 5px 0px;
     font-family: arial, 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    text-align: center
-	
+    text-align: center;
+    color:gray;
+    background-color: #ebebeb
 }
 
 footer {
